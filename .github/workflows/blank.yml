@@ -6,7 +6,7 @@ on:
   push:
     #you are saying if there is a change in this event with a push command then run the action
     paths: 
-      - './my_review_directory/**'
+      - 'my_review_directory/**'
   # push:
   #   branches: [ "main" ]
   # pull_request:
