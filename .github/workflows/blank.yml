@@ -39,4 +39,4 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           echo ${{ secrets.MY_REVIEW_SECRET }}
-          if: inputs.customer != 'eli'
+        if: inputs.customer != 'eli'
