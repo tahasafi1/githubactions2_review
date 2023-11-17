@@ -6,7 +6,7 @@ on:
   push:
     #you are saying if there is a change in this directory then push
     paths: 
-      - ./my_review_directory/
+      - './my_review_directory'
   # push:
   #   branches: [ "main" ]
   # pull_request:
