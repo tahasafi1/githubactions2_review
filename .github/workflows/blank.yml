@@ -5,7 +5,8 @@ on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
   push:
     #you are saying if there is a change in this directory then push
-    paths: ./my_review_directory/
+    paths: 
+      - ./my_review_directory/
   # push:
   #   branches: [ "main" ]
   # pull_request:
